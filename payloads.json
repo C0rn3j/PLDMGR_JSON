@@ -397,13 +397,13 @@
   },
   {
     "name": "pldmgr",
-    "filename": "pldmgr_v0.5.1.elf",
-    "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.5.1/pldmgr_v0.5.1.elf",
+    "filename": "pldmgr_v0.5.2.elf",
+    "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.5.2/pldmgr_v0.5.2.elf",
     "source": "https://github.com/itsPLK/pldmgr/releases",
-    "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.5.1/pldmgr_v0.5.1.elf",
-    "description": "v0.5.1",
-    "last_update": "2026-08-02",
-    "version": "v0.5.1",
+    "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.5.2/pldmgr_v0.5.2.elf",
+    "description": "- Rebuilt with latest SDK (FW 13.60 support)",
+    "last_update": "2026-09-29",
+    "version": "v0.5.2",
     "category": "Utilities & Tools"
   },
   {
