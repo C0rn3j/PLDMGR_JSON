@@ -198,6 +198,17 @@
     "category": "Networking & Servers"
   },
   {
+    "name": "pegasus_dl",
+    "filename": "pegasus_dl.elf",
+    "url": "https://github.com/pegasus-ps5/pegasus-dl/releases/download/v1.10.0/pegasus_dl.elf",
+    "source": "https://github.com/pegasus-ps5/pegasus-dl/releases",
+    "source_direct": "https://github.com/pegasus-ps5/pegasus-dl/releases/download/v1.10.0/pegasus_dl.elf",
+    "description": "- Updated the PS5 payload SDK to v0.43 and embedded nanoDNS to 0.4, bringing",
+    "last_update": "2026-09-29",
+    "version": "v1.10.0",
+    "category": "Networking & Servers"
+  },
+  {
     "name": "ps5upload",
     "filename": "ps5upload-5.39.1.elf",
     "url": "https://github.com/phantomptr/ps5upload/releases/download/v5.39.1/ps5upload-5.39.1.elf",
@@ -382,17 +393,6 @@
     "description": "Automated historical nightly built from the latest main branch.",
     "last_update": "2026-09-22",
     "version": "nightly-20260922-g6e493c9",
-    "category": "Utilities & Tools"
-  },
-  {
-    "name": "pegasus_dl",
-    "filename": "pegasus_dl.elf",
-    "url": "https://github.com/pegasus-ps5/pegasus-dl/releases/download/v1.9.0/pegasus_dl.elf",
-    "source": "https://github.com/pegasus-ps5/pegasus-dl/releases",
-    "source_direct": "https://github.com/pegasus-ps5/pegasus-dl/releases/download/v1.9.0/pegasus_dl.elf",
-    "description": "- Added Included sources backed by the remotely maintained catalog manifest, so",
-    "last_update": "2026-09-15",
-    "version": "v1.9.0",
     "category": "Utilities & Tools"
   },
   {
