@@ -343,12 +343,12 @@
   {
     "name": "CheatRunner",
     "filename": "CheatRunner.elf",
-    "url": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.17.1/CheatRunner.elf",
+    "url": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.17.2/CheatRunner.elf",
     "source": "https://github.com/notmaj0r/CheatRunner/releases",
-    "source_direct": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.17.1/CheatRunner.elf",
-    "description": "CheatRunner v0.17.1",
-    "last_update": "2026-09-30",
-    "version": "v0.17.1",
+    "source_direct": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.17.2/CheatRunner.elf",
+    "description": "CheatRunner v0.17.2",
+    "last_update": "2026-10-01",
+    "version": "v0.17.2",
     "category": "Utilities & Tools"
   },
   {
