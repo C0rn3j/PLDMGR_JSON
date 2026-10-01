@@ -199,13 +199,13 @@
   },
   {
     "name": "ps5upload",
-    "filename": "ps5upload-5.40.0.elf",
-    "url": "https://github.com/phantomptr/ps5upload/releases/download/v5.40.0/ps5upload-5.40.0.elf",
+    "filename": "ps5upload-5.41.0.elf",
+    "url": "https://github.com/phantomptr/ps5upload/releases/download/v5.41.0/ps5upload-5.41.0.elf",
     "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v5.40.0/ps5upload-5.40.0.elf",
-    "description": "Refreshed for FW 13.60. Tested on two consoles running 13.60 (a launch",
-    "last_update": "2026-09-30",
-    "version": "v5.40.0",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v5.41.0/ps5upload-5.41.0.elf",
+    "description": "Installs that the PS5 used to decline now go through. On FW 13.60 the",
+    "last_update": "2026-10-01",
+    "version": "v5.41.0",
     "category": "Networking & Servers"
   },
   {
