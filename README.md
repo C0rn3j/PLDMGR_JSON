@@ -15,7 +15,7 @@ Open the Payload Manager dashboard on your PS5:
 ### GitHub Raw
 
 ```text
-https://raw.githubusercontent.com/RDX-Sci01/PLDMGR_JSON/main/payloads.json
+https://raw.githubusercontent.com/C0rn3j/PLDMGR_JSON/main/payloads.json
 ```
 
 ### GitHub Pages
