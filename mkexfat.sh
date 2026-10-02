@@ -1,6 +1,5 @@
 #!/bin/sh
 # Taken from https://github.com/drakmor/ShadowMountPlus/blob/main/mkexfat.sh
-# exfat-utils needed on Arch
 
 # For WSL2/Ubuntu/Debian: sudo apt-get install -y exfatprogs exfat-fuse fuse3 rsync
 # Create an exFAT image from a directory
@@ -91,7 +90,7 @@ echo "Image size: ${MB}MB"
 truncate -s "${MB}M" "$OUTPUT"
 mkfs.exfat -c "$MKFS_CLUSTER_ARG" "$OUTPUT"
 mkdir -p /mnt/exfat
-mount.exfat-fuse -o loop "$OUTPUT" /mnt/exfat
+mount -t exfat -o loop "$OUTPUT" /mnt/exfat
 rsync -r --info=progress2 "$INPUT_DIR"/ /mnt/exfat/
 
 umount /mnt/exfat
