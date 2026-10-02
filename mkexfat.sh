@@ -89,7 +89,7 @@ echo "Image size: ${MB}MB"
 truncate -s "${MB}M" "$OUTPUT"
 mkfs.exfat -c "$MKFS_CLUSTER_ARG" "$OUTPUT"
 mkdir -p /mnt/exfat
-mount -t exfat-fuse -o loop "$OUTPUT" /mnt/exfat
+mount.exfat-fuse -o loop "$OUTPUT" /mnt/exfat
 rsync -r --info=progress2 "$INPUT_DIR"/ /mnt/exfat/
 
 umount /mnt/exfat
