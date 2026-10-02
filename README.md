@@ -1,3 +1,5 @@
+Payload repo forked off https://github.com/RDX-Sci01/PLDMGR_JSON
+
 # PLDMGR_JSON
 
 Custom payload repository for PS5 Payload Manager.
