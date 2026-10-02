@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/C0rn3j/PLDMGR_JSON/main/payloads.json
 ### GitHub Pages
 
 ```text
-https://rdx-sci01.github.io/PLDMGR_JSON/payloads.json
+https://c0rn3j.github.io/PLDMGR_JSON/payloads.json
 ```
 
 These are alternative URLs pointing to the same generated catalog. You normally only need to add one.
