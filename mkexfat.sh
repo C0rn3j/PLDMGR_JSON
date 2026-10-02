@@ -1,11 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 # Taken from https://github.com/drakmor/ShadowMountPlus/blob/main/mkexfat.sh
-
 # For WSL2/Ubuntu/Debian: sudo apt-get install -y exfatprogs exfat-fuse fuse3 rsync
 # Create an exFAT image from a directory
 # Usage: mkexfat.sh <input_dir> [output_file]
 
-set -e
+set -euo pipefail
 
 if [ -z "$1" ]; then
     echo "Usage: $0 <input_dir> [output_file]"
@@ -88,9 +87,17 @@ echo "exFAT profile: -c $MKFS_CLUSTER_ARG (avg file=$AVG_FILE_BYTES bytes)"
 echo "Image size: ${MB}MB"
 
 truncate -s "${MB}M" "$OUTPUT"
-mkfs.exfat -c "$MKFS_CLUSTER_ARG" "$OUTPUT"
+if ! mkfs.exfat -c "${MKFS_CLUSTER_ARG}" "${OUTPUT}"; then
+	echo "Failed formatting as exfat!"
+	rm -f "${OUTPUT}"
+	exit 1
+fi
 mkdir -p /mnt/exfat
-mount -t exfat -o loop "$OUTPUT" /mnt/exfat
+if ! mount -t exfat -o loop "${OUTPUT}" /mnt/exfat; then
+	echo "Failed mounting as exfat!"
+	rm -f "${OUTPUT}"
+	exit 1
+fi
 rsync -r --info=progress2 "$INPUT_DIR"/ /mnt/exfat/
 
 umount /mnt/exfat
