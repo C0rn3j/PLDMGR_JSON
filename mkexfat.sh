@@ -1,5 +1,7 @@
 #!/bin/sh
 # Taken from https://github.com/drakmor/ShadowMountPlus/blob/main/mkexfat.sh
+# exfat-utils needed on Arch
+
 # For WSL2/Ubuntu/Debian: sudo apt-get install -y exfatprogs exfat-fuse fuse3 rsync
 # Create an exFAT image from a directory
 # Usage: mkexfat.sh <input_dir> [output_file]
