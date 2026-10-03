@@ -11,6 +11,7 @@ Jailbreak for 13.60 - https://github.com/ntfargo/Relapse-Exploit - opens privile
 Drop in payload manager and add this repo to it, then from payload manager install:
   * kstuff-lite - let's you fake license checks (?) - add to autoloader as first
   * ShadowMountPlus - lets you mount apps from USB or internal storage - add to autoloader as second
+    * SMP sometimes breaks scanning new files (presumably because it finds a partial one and doesn't rescan the full one later?) - restarting it in Payload Manager fixes it
   * PKG Manager - hosts a web server you can stream .pkg files to over network
   * pegasus-dl - effectively an app store
   * ftpsrv-drakmor - FTP server, manage files
